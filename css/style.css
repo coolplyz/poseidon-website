@@ -1,0 +1,10 @@
+
+*{
+    /* * is the universal selector and applies the declarations to all elements of any type */
+    background-color: black;
+    color: white;   
+}
+h1{
+    color: aqua;
+}
+
