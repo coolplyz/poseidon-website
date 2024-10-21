@@ -1,42 +1,53 @@
-
-*{
+* {
     /* * is the universal selector and applies the declarations to all elements of any type */
     background-color: black;
-    color: white;   
-}
-h1,h3{
-    color: aqua;
+    color: white;
 }
 
-li{
-    margin: 5px;  
+h1,
+h3 {
+    color: #00ffff;
 }
 
-.links-list a{
+li {
+    margin: 5px;
+}
+
+.links-list a {
     background-color: aqua;
     color: black;
     text-decoration: none;
     padding: 1em 4em;
-    display: inline-block; 
+    
+    
 }
 
-.links-list li{
+.links-list li {
     list-style-type: none;
     float: left;
 }
+
 div.container {
     text-align: center;
 }
 
-ul.links-list{
+ul.links-list {
     display: inline-block;
     text-align: left;
 }
 
-.center{
+.center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
 
+img {
+
+    margin: 40px;
+}
+
+.journey {
+    margin-left: 40px;
+}
